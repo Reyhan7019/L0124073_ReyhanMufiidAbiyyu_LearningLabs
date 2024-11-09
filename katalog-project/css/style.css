@@ -1,0 +1,146 @@
+.logo_header {
+    margin-right: 5px;
+    width: 50px;
+    display: inline-block;
+    vertical-align: middle;   
+}
+.header-atas {
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+    color: white;
+}
+.header-container {
+    margin-left:40px;
+}
+.nav_button {
+    margin-top: 10px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    width: 100%;
+}
+li {
+    float: left;
+    margin-left: 40px;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111111;
+}
+.main_menu {
+    color: white;
+}
+.tombol {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+    border: none;
+}
+.tombol:hover{
+    background-color: lightblue;
+    color: black;
+}
+.button {
+    padding: 10px 20px;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+    border: none;
+}
+.button:hover {
+    background-color: rgb(169, 169, 169);
+}
+table, th, td {
+    border: 1px solid;
+    border-color: black;
+    border-collapse: collapse;
+    padding: 15px;
+    text-align: center;
+}
+table {
+    width: 100%;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+.main_menu {
+    margin-left:40px;
+    margin-right: 40px;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: arial, sans-serif;
+}
+#page1 {
+    background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url('../images/background_1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#page2 {
+    background: linear-gradient(rgba(75, 75, 75, 0.4), rgba(173, 171, 171, 0.4)), url('../images/background_2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#page3 {
+    background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(233, 227, 227, 0.4)), url('../images/background_3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+article {
+    flex-grow: 1;
+}
+.email {
+    width: 300px;
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: ;
+}
+
+.komentar {
+    resize: none;
+    width: 300px;
+    height: 100px;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 14px;
+    border: 1px solid black;
+}
+button {
+    background-color: rgb(221, 210, 210);
+    border: 1px solid black;
+    width: 310px;
+    padding: 10px
+}
+.main_pic {
+    width: 200px;
+}
+
+.footer {
+    background-color: #333333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 14px;
+}
